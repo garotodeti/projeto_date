@@ -1,33 +1,32 @@
-Datezinho?
-Este é um programa simples escrito em Python usando a biblioteca flet, que cria uma interface gráfica para solicitar um "date" (encontro romântico). Quando executado, o programa exibirá uma janela com um botão em forma de coração. Ao clicar nesse botão, será exibida uma caixa de diálogo perguntando se o usuário aceita ir em um encontro. Dependendo da escolha do usuário, uma nova caixa de diálogo pode ser exibida.
+# Datezinho?
 
-Requisitos
-Certifique-se de ter a biblioteca flet instalada. Você pode instalar a biblioteca executando o seguinte comando:
+Este é um programa simples desenvolvido em Python usando a biblioteca `flet`, que cria uma interface gráfica para convidar alguém para um encontro. O programa exibe uma janela com um envelope e um botão de coração. Ao clicar no botão de coração, uma caixa de diálogo é aberta para convidar o usuário a aceitar ou recusar o convite para um encontro.
 
-bash
-Copy code
+## Pré-requisitos
+
+Certifique-se de ter o Python instalado em sua máquina. Você também precisará instalar a biblioteca `flet`. Você pode instalá-la via pip:
+
 pip install flet
-Como Executar
-Para executar o programa, basta executar o script Python. Por exemplo:
 
-bash
-Copy code
-python nome_do_script.py
-Isso abrirá uma janela com a interface do programa.
 
-Funcionamento
-Ao executar o programa, ele cria uma janela com as seguintes configurações:
+## Executando o programa
 
-Título: "Datezinho?"
-Largura e altura da janela: 600 pixels
-A janela não pode ser redimensionada
-O fundo da janela é de cor azul claro (#B3CFFF)
-O texto "Clique no ♥ para uma surpresa!" é exibido com uma fonte específica e em negrito
-Uma imagem de um envelope é exibida
-Um botão em forma de coração é exibido. Ao clicar neste botão, uma caixa de diálogo é aberta, perguntando se o usuário aceita ir em um date.
-Contribuição
-Se você quiser contribuir para este projeto, sinta-se à vontade para fazer um fork e enviar um pull request com suas sugestões.
+Para executar o programa, basta rodar o script Python `datezinho.py` em seu terminal:
 
-Divirta-se!
+
+Uma janela será aberta exibindo o convite para um encontro. Clique no ícone do coração para abrir a caixa de diálogo e responder ao convite.
+
+## Funcionalidades
+
+- Exibe uma interface gráfica simples com um convite para um encontro.
+- Permite que o usuário responda ao convite clicando no botão de coração.
+- Abre uma caixa de diálogo para que o usuário possa aceitar ou recusar o convite.
+- A caixa de diálogo é estilizada com opções "Sim" e "Não" para responder ao convite.
+
+## Contribuindo
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Licença
 
 Este projeto é inspirado por liviavianna/pedido_date_py.
