@@ -1,5 +1,8 @@
 # Datezinho?
 
+runtime - 3.11.0
+requirements - flet==0.19.0
+
 Este é um programa simples desenvolvido em Python usando a biblioteca `flet`, que cria uma interface gráfica para convidar alguém para um encontro. O programa exibe uma janela com um envelope e um botão de coração. Ao clicar no botão de coração, uma caixa de diálogo é aberta para convidar o usuário a aceitar ou recusar o convite para um encontro.
 
 ## Pré-requisitos
